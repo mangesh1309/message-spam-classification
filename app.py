@@ -7,6 +7,7 @@ from nltk.stem.porter import PorterStemmer
 import sklearn
 
 nltk.download('punkt')
+nlt.download('corpus')
 ps = PorterStemmer()
 
 model = pickle.load(open("model.pkl", "rb"))
